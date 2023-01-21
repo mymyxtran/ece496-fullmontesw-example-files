@@ -5,8 +5,8 @@
 # The real FullMonteWeb uses the aws_setup script instead of just this command
 # you should only use this script for testing purposes, not production
 
-# curl -fsSL https://get.docker.com -o get-docker.sh
-# sudo sh get-docker.sh
+curl -fsSL https://get.docker.com -o get-docker.sh
+sudo sh get-docker.sh
 
 # By default we pull from the 'master' branch but if you want to pull from 
 # another branch simple change the 'TAG' variable below to the branch name
